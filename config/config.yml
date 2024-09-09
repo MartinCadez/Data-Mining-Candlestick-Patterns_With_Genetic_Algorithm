@@ -1,0 +1,13 @@
+# Possible fitness functions are: martin_ratio, profit_factor, total_returs
+# TODO: Add mutation rate, add sorting of pattern rate atm 0.025
+# TODO: Add description for each parameter
+
+hyperparameters:
+  num_conds: 3
+  max_lag: 3
+
+genetic_algorithm_settings:
+  pop_size: 50
+  num_gens: 8
+  fitness_type: "martin_ratio"
+  focus_on_bullish_patterns: True

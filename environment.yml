@@ -1,0 +1,35 @@
+######################### Environment Setup Instructions #########################
+#
+# This environment.yml file is used to create a Conda environment. It ensures that
+# all necessary dependencies are installed in a controlled environment.
+#
+#
+# How to use:
+# - To create the environment, run:
+#   '''bash
+#   conda env create -f environment.yml
+#   '''
+# - This will set up an environment named 'py312_GA_env' with Python 3.12.5 and
+#   all required dependencies.
+# - After creation, activate the environment using:
+#   '''bash
+#   conda activate py312_GA_env
+#   '''
+#   - Additionally, for Anaconda users, some standard packages not listed in the
+#   requirements.txt file will also be installed due to pre-packaged installations
+#   settings of the user's base environment. Note that this does not apply to
+#   Miniconda, which installs only the packages explicitly requested.
+#
+###################################################################################
+
+name: py312_GA_env
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.12.5
+  - pip
+  - pip:
+      - -r requirements.txt
