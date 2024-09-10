@@ -38,7 +38,7 @@ This guide outlines the steps to configure the project on your local machine. Be
 - 📥**Clone the Repository**
 
   ```bash
-  git clone https://github.com/MartinCadez/Data-Mining-Candlestick-Patterns-With-Genetic-Algorithm.git
+  git clone https://github.com/MartinCadez/Data-Mining-Candlestick-Patterns_With-Genetic_Algorithm.git
   ```
 
 - 🔧 **Environment Configuration**
@@ -92,7 +92,7 @@ Learn about the unique aspects of this project and how they benefit its function
 
 ## 📈 How to Use
 
-- 📊 Need to update
+- 📊 Need to update <br>
   Run from the main file in project directory. Use yaml file to configure the genetic algorithm parameters.
   ```bash
   python main.py
@@ -111,7 +111,7 @@ Your ideas and alternative solutions are also valued. For any questions or to di
 
 ## 🏆 Acknowledgments & Credits
 
-- **Neurotrader** : Youtube video [Data Mining Candlestick Patterns With a Genetic Algorithm](https://www.youtube.com/watch?v=2XQ3PsZActM) from his channel inspired the development of this project. For more of his work, visit [Neurotrader's GitHub](https://github.com/neurotrader888).
+- **Neurotrader** : Youtube video [Data Mining Candlestick Patterns With a Genetic Algorithm](https://www.youtube.com/watch?v=2XQ3PsZActM) posted on his channel, inspired the development of this project. For more of his work, visit [Neurotrader's GitHub](https://github.com/neurotrader888).
 
 - **Ahmed Gad** : His PyGAD library was essential for implementing genetic algorithm. For more information, visit the [PyGAD Documentation](https://pygad.readthedocs.io/en/stable/).
 
