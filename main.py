@@ -1,11 +1,12 @@
 import pandas as pd
 import yaml
+from pathlib import Path
 
 from src.modules.genetic_algorithm import GeneticAlgorithm
 
 
-def load_config(path: str = r"config\config.yml") -> dict:
-    with open(path, "r") as file:
+def load_config(path: Path = Path("config/config.yml")) -> dict:
+    with path.open("r") as file:
         return yaml.safe_load(file)
 
 
